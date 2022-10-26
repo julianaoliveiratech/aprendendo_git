@@ -1,0 +1,19 @@
+Aprendendo Git
+
+O Git é uma ferramenta que nos permite controlar versões de arquivos, trabalhar em conjunto e saber em tempo real as alterações feitas pelos colegas.
+
+Comandos:
+git --version: Mostra o versionamento instalado na máquina atualmente
+git config --global user.name "Nome": Nome de usuário
+git config --global user.email "nome@dominio.com": Endereço de e-mail
+git config --list: Testar as configurações
+git init: Começar uma pasta do git (.git - pasta oculta)
+git status: Qual os status dos arquivos
+git config --global --add safe.directory: Para propriedade duvidosa detectada no repositório, é só chamar esta função
+git add .: Todos os arquivos estão prontos para adicionar no repositório
+git commit -m "Commit inicial Academy": Monitoramento de arquivos
+git diff: Mudanças feitas em arquivos monitorados
+git log: Histórico dos commits efetuados em um determinado repositório
+git tag -a v1.0: Criar tags
+git clone https://github.com/julianaoliveiratech/aprendendo_git.git: Clona o projeto para colocar na máquina
+git push: Enviar os arquivos modificados ao remoto do projeto
